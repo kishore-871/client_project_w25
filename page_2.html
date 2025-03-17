@@ -3,24 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page 2</title>
+    <title>Food Pantry</title>
+    <link rel="stylesheet" href="css/html5reset.css">
+	<!-- Link to the stylesheet -->
+	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
+    <div class="skip"><a href="#main">Skip to Main Content</a></div>
     <header>
-            <a href = "">Skip to Main Content</a>
-        <nav>
-            <ul>
-                <li><a href = "index.html">Home</a></li>
-                <li><a href = "page_1.html">Academic Suport at UMSI</a></li>
-                <li><a href = "page_2.html">Food Pantry</a></li>
-                <li><a href = "page_3.html">First-Generation Student Program</a></li>
-            </ul>
-        </nav>
-        <h1>Food Pantry at Umich</h1>
+            <!-- <a href = "">Skip to Main Content</a> -->
+            <div class="header-content"> <!-- Wrapper for layout purposes -->
+                <img src="images/U-M_Logo-Hex.png" alt="UMSI Logo" id="um-logo">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="page_1.html">Academic Support at UMSI</a></li>
+                        <li><a href="page_2.html" class="active">Food Pantry</a></li>
+                        <li><a href="page_3.html">First-Generation Student Program</a></li>
+                    </ul>
+                </nav>
+            </div>
+        <article>
+            <figure>
+                <img src="images/Groceries-ThinkstockPhotos-836782690.jpg" alt="Groceries display" width="500" height="300">
+            </figure>
+        </article>
+        <!-- <h1>Food Pantry at Umich</h1> -->
+        <a href="https://mbc.studentlife.umich.edu/" style="text-decoration: none; color: inherit;">
+            <h1>Food Pantry at Umich</h1>
+        </a>
 
     </header>
-    <main>
+    <main id = "main">
         <div>
             <p>College students and staff are experiencing food insecurity at alarming rates. The Maize and Blue Cupboard is here to provide an immediate and comprehensive response for the U-M community. By offering resources, educational opportunities, compassionate support and more, they help students develop the skills to make informed decisions. </p>
 
@@ -28,10 +42,10 @@
         <section>
             <h2>What they provide</h2>
             <ol>
-                <li>FOOD: Produce, dairy, meat, bread, frozen and shelf-stable foods (i.e. rice, cans, tuna, etc.)</li>
-                <li>KITCHEN & COOKING: Dishes, silverware, pots & pans, Tupperware, cutting boards, knives, and other kitchenware</li>
-                <li>PERSONAL & HOUSEHOLD: Trash bags, toilet paper, cleaning supplies, hygiene products, school supplies, baby items and more</li>
-                <li>SUPPORT: Get connected to campus experts like CAPS, Dean of Students and Financial Aid, as well as SNAP (Michigan’s food program)</li>
+                <li><strong>FOOD</strong>: Produce, dairy, meat, bread, frozen and shelf-stable foods (i.e. rice, cans, tuna, etc.)</li>
+                <li><strong>KITCHEN & COOKING</strong>: Dishes, silverware, pots & pans, Tupperware, cutting boards, knives, and other kitchenware</li>
+                <li><strong>PERSONAL & HOUSEHOLD</strong>: Trash bags, toilet paper, cleaning supplies, hygiene products, school supplies, baby items and more</li>
+                <li><strong>SUPPORT</strong>: Get connected to campus experts like CAPS, Dean of Students and Financial Aid, as well as SNAP (Michigan’s food program)</li>
             </ol>
         </section>
 
@@ -42,7 +56,7 @@
         <div></div>
     </main>
     <footer>
-        <p>Umich Food Pantry| <a href="https://mbc.studentlife.umich.edu/">Maize and Blue Cupboard </a></p>
+        <p>University of Michigan | School of Information | Ann Arbor, MI</p>
     </footer>
     
 </body>

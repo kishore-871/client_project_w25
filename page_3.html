@@ -3,24 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page 1</title>
+    <title>First-Generation Student Program</title>
+    <link rel="stylesheet" href="css/html5reset.css">
+	<!-- Link to the stylesheet -->
+	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
+    <div class="skip"><a href="#main">Skip to Main Content</a></div>
     <header>
-            <a href = "">Skip to Main Content</a>
-        <nav>
-            <ul>
-                <li><a href = "index.html">Home</a></li>
-                <li><a href = "page_1.html">Academic Suport at UMSI</a></li>
-                <li><a href = "page_2.html">Food Pantry</a></li>
-                <li><a href = "page_3.html">First-Generation Student Program</a></li>
-            </ul>
-        </nav>
-        <h1>First-Generation Student Program at Umich</h1>
+            <!-- <a href = "">Skip to Main Content</a> -->
+        <div class="header-content"> <!-- Wrapper for layout purposes -->
+            <img src="images/U-M_Logo-Hex.png" alt="UMSI Logo" id="um-logo">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="page_1.html">Academic Support at UMSI</a></li>
+                    <li><a href="page_2.html">Food Pantry</a></li>
+                    <li><a href="page_3.html" class="active">First-Generation Student Program</a></li>
+                </ul>
+            </nav>
+        </div>
+        <article>
+            <figure>
+                <img src="images/FGCS_blog (1).jpg" alt="First-Generation students" width="500" height="300">
+            </figure>
+        </article>
+        <!-- <h1>First-Generation Student Program at Umich</h1> -->
+        <a href="https://firstgen.umich.edu/our-stories/" style="text-decoration: none; color: inherit;">
+            <h1>First-Generation Student Program at Umich</h1>
+        </a>
 
     </header>
-    <main>
+    <main id = "main">
         <div>
             <p>Did you know there are approximately 4,000 studentsat the University of Michigan who are among the first generation in their family to attend college? While being the first to do anything can be a bit daunting, going off to college is also a major life milestone. Thankfully, there are useful networks and programs at U-M that can help you connect and thrive on campus. </p>
 
@@ -44,7 +58,7 @@
         <div></div>
     </main>
     <footer>
-        <p>First-Generation Student Program | <a href="https://firstgen.umich.edu/our-stories/">First-Generation Student Program </a></p>
+        <p>University of Michigan | School of Information | Ann Arbor, MI</p>
     </footer>
     
 </body>

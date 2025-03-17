@@ -4,24 +4,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Student Success Portal</title>
+    	<!-- Link to the reset file -->
+	<link rel="stylesheet" href="css/html5reset.css">
+	<!-- Link to the stylesheet -->
+	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
+    <div class="skip"><a href="#main">Skip to Main Content</a></div>
     <header>
-  <a href = "">Skip to Main Content</a>
-        <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo">
-        <nav>
-            <ul>
-                <li><a href = "index.html">Home</a></li>
-                <li><a href = "page_1.html">Academic Suport at UMSI</a></li>
-                <li><a href = "page_2.html">Food Pantry</a></li>
-                <li><a href = "page_3.html">First-Generation Student Program</a></li>
-            </ul>
-        </nav>
+        <!-- <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo"> -->
+        <div class="header-content"> <!-- Wrapper for layout purposes -->
+            <img src="images/U-M_Logo-Hex.png" alt="UMSI Logo" id="um-logo">
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="page_1.html">Academic Support at UMSI</a></li>
+                    <li><a href="page_2.html">Food Pantry</a></li>
+                    <li><a href="page_3.html">First-Generation Student Program</a></li>
+                </ul>
+            </nav>
+        </div>
+        <article>
+            <figure>
+                <img src="images/UMSI_Festifall_09012022_01.jpg" alt="Vibrant Campus Scene" width="500" height="300">
+            </figure>
+        </article>
         <h1>Student Success Portal</h1>
 
     </header>
-    <!-- <main>
+    <main class="container" id = "main">
+        <section>
+            <h2>Welcome to the UM Grad Success Navigator</h2>
+            <p> Your Comprehensive Guide to Resources for Graduate School Success</p>
+            
+            <p>This guide is set up to help you be successul inside and outside of the classroom and we have included the following resources throughout our site:</p>
+            <ol class="home">
+                <li>Academic Support</li>
+                <li>Food Pantry</li>
+                <li>First Generation Student Program</li>
+            </ol>
+        </section>
+        <section id="academic-support">
+            <h2>Academic Support at UMSI</h2>
+            <p>At the University of Michigan School of Information, we provide comprehensive academic support to ensure your success. Our services include tutoring, study groups, research assistance, and career advising.</p>
+        </section>
+
+        <section id="food-pantry">
+            <h2>Food Pantry</h2>
+            <p>To support students facing food insecurity, the University of Michigan offers a food pantry that provides free, nutritious food. It's located on campus and open to all students.</p>
+        </section>
+
+        <section id="first-gen-program">
+            <h2>First-Generation Student Program</h2>
+            <p>If you are a first-generation college student, our First-Generation Student Program offers resources and a community designed to support you. From mentorship to workshops focusing on academic and personal growth, we're here to help you thrive.</p>
+        </section>
+        <!-- Content taken & modified from UMGPT with the prompt, "write me a webpage of intro content to help University of Michigan Master's students navigate different resources for being successful in grad school - this will include Academic Suport at UMSI , Food Pantry , First-Generation Student Program"
+        UMGPT. (2024). UMGPT (August 29th version) [Large language model]. -->
+    </main>
+    <footer>
+        <p>University of Michigan | School of Information | Ann Arbor, MI</p>
+    </footer>
+</body>
+</html>
+<!-- <main>
         <section>
             <h2>Welcome to the UM Grad Success Navigator</h2>
             <p> Your Comprehensive Guide to Resources for Graduate School Success</p>
@@ -97,42 +142,3 @@
         Content taken & modified from UMGPT with the prompt, "write me a webpage of intro content to help University of Michigan Master's students navigate different resources for being successful in grad school - this will include academic resources, physical health resources, mental health resources, support for life outside the classroom"
         UMGPT. (2024). UMGPT (August 29th version) [Large language model].
     </main> -->
-    <main>
-        <section>
-            <h2>Welcome to the UM Grad Success Navigator</h2>
-            <p> Your Comprehensive Guide to Resources for Graduate School Success</p>
-            <article>
-                <figure>
-                    <img src="images/UMSI_Festifall_09012022_01.jpg" alt="Vibrant Campus Scene" width="500" height="300">
-                    <figcaption>University of Michigan is a vibrant, welcoming place with resources to help you succeed</figcaption>
-                </figure>
-            </article>
-            <p>This guide is set up to help you be successul inside and outside of the classroom and we have included the following resources throughout our site:</p>
-            <ol>
-                <li>Academic Support</li>
-                <li>Food Pantry</li>
-                <li>First Generation Student Program</li>
-            </ol>
-        </section>
-        <section id="academic-support">
-            <h2>Academic Support at UMSI</h2>
-            <p>At the University of Michigan School of Information, we provide comprehensive academic support to ensure your success. Our services include tutoring, study groups, research assistance, and career advising.</p>
-        </section>
-
-        <section id="food-pantry">
-            <h2>Food Pantry</h2>
-            <p>To support students facing food insecurity, the University of Michigan offers a food pantry that provides free, nutritious food. It's located on campus and open to all students.</p>
-        </section>
-
-        <section id="first-gen-program">
-            <h2>First-Generation Student Program</h2>
-            <p>If you are a first-generation college student, our First-Generation Student Program offers resources and a community designed to support you. From mentorship to workshops focusing on academic and personal growth, we're here to help you thrive.</p>
-        </section>
-        <!-- Content taken & modified from UMGPT with the prompt, "write me a webpage of intro content to help University of Michigan Master's students navigate different resources for being successful in grad school - this will include Academic Suport at UMSI , Food Pantry , First-Generation Student Program"
-        UMGPT. (2024). UMGPT (August 29th version) [Large language model]. -->
-    </main>
-    <footer>
-        <p>University of Michigan | School of Information | Ann Arbor, MI</p>
-        </footer>
-</body>
-</html>
