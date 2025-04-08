@@ -55,7 +55,7 @@ header nav ul li a {
 
 #main {
   /* padding: 10px; */
-  padding: 0 30px; /* Adds 40px padding to both sides */
+  padding: 0 30px;
   background: #fff;
 }
 
@@ -139,14 +139,7 @@ h1.Oops {
 }
 
 
-/* section ol {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: auto auto;
-  grid-gap: 20px;
-  padding: 0;
-  list-style-type: none;
-} */
+
 
 section ol li {
   background: #f4f4f4;
@@ -178,27 +171,6 @@ ol.home li {
   /* height: 50px; */
 }
 
-/* header a h1 {
-  text-decoration: none;
-  color: #FFCB05;
-  font-weight: bold;
-  display: block;
-  margin: 0.25em;
-} */
-
-/* header a:hover h1, header a:focus h1 {
-  color: #FFCB05;
-  text-decoration: none;
-}
-
-header a:visited:hover h1, header a:visited:focus h1 {
-  color: #FFCB05;
-} */
-
-/* header article img {
-  width: 100%;
-  height: auto;
-} */
 
 .header-content {
   display: flex;
@@ -217,17 +189,17 @@ nav ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
-  display: flex; /* Keeps the flex behavior */
-  flex-direction: column; /* Stacks the children vertically */
-  align-items: center; /* Center-aligns the list items */
-  width: 100%; /* Ensures the ul takes full width of the nav container */
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  width: 100%; 
 }
 
 nav ul li {
   /* display: inline;
   margin-right: 20px; */
-  width: 100%; /* Each li takes the full width */
-    text-align: center; /* Centers the text inside each li */
+  width: 100%; 
+    text-align: center; 
 }
 
 nav ul li a {
@@ -240,8 +212,8 @@ nav ul li a {
   position: relative;
   text-align: center;
   color: white;
-  width: 100%; /* Ensures the container takes full width */
-  height: 100%; /* Ensures the container takes full height */
+  width: 100%; 
+  height: 100%; 
 }
 
 .overlay {
@@ -250,15 +222,15 @@ nav ul li a {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.5); /* Black background with opacity */
-  box-sizing: border-box; /* Includes padding and border in height/width */
+  background: rgba(0, 0, 0, 0.5); 
+  box-sizing: border-box; 
 }
 
 .image-container img {
   width: 100%;
   height: auto;
-  display: block; /* Removes any extra spacing around the image */
-  box-sizing: border-box; /* Includes padding and border in height/width */
+  display: block; 
+  box-sizing: border-box; 
 }
 
 .image-container h1 {
@@ -266,7 +238,7 @@ nav ul li a {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  z-index: 1; /* Ensures the text is above the overlay */
+  z-index: 1; 
 }
 
 div a h1 {
@@ -296,10 +268,10 @@ ol li strong {
 }
 
 .error-container {
-  display: flex; /* Enables flexbox */
-  align-items: center; /* Vertically center the items in the container */
-  justify-content: space-around; /* Horizontally center the items */
-  text-align: center; /* Aligns the text to the left inside the content div */
+  display: flex; 
+  align-items: center; 
+  justify-content: space-around; 
+  text-align: center; 
   padding-top: 40px;
 }
 
@@ -312,15 +284,15 @@ ol li strong {
 
   #main {
     /* padding: 10px; */
-    padding: 0 150px; /* Adds 40px padding to both sides */
+    padding: 0 150px; 
     background: #fff;
   }
   nav ul {
     display: flex;
     justify-content: space-evenly;
     width: 100%;
-    flex-direction: row; /* Stacks the children horizontally */
-    align-items: center; /* Center-aligns the list items */
+    flex-direction: row; 
+    align-items: center; 
   }
   .header-content {
     display: flex;
@@ -328,12 +300,12 @@ ol li strong {
     justify-content: space-between;
   }
   #um-logo {
-    flex: 0 0 auto; /* Do not grow, do not shrink, and use the auto basis */
-    margin-right: 20px; /* Optional: Adds some space between the logo and the nav */
+    flex: 0 0 auto; 
+    margin-right: 20px; 
 }
 
 nav {
-    flex: 1 1 auto; /* Grow to occupy the rest of the space */
+    flex: 1 1 auto; 
 }
 
 section ol {
