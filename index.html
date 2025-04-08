@@ -24,12 +24,17 @@
                 </ul>
             </nav>
         </div>
-        <article>
+        <!-- <article>
             <figure>
                 <img src="images/UMSI_Festifall_09012022_01.jpg" alt="Vibrant Campus Scene" width="500" height="300">
             </figure>
         </article>
-        <h1>Student Success Portal</h1>
+        <h1>Student Success Portal</h1> -->
+        <div class="image-container">
+            <img src="images/UMSI_Festifall_09012022_01.jpg" alt="Vibrant Campus Scene" width="500" height="300">
+            <div class="overlay"></div>
+            <h1>Student Success Portal</h1>
+        </div>
 
     </header>
     <main class="container" id = "main">
@@ -62,8 +67,11 @@
         UMGPT. (2024). UMGPT (August 29th version) [Large language model]. -->
     </main>
     <footer>
-        <p>University of Michigan | School of Information | Ann Arbor, MI</p>
+        <p>University of Michigan | School of Information | Ann Arbor, MI © <span id="currentYear"></span>. All rights reserved.</p>
     </footer>
+    <script>
+        document.getElementById("currentYear").innerHTML = new Date().getFullYear();
+    </script>
 </body>
 </html>
 <!-- <main>

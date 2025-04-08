@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 Not Found</title>
+    <link rel="stylesheet" href="css/html5reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <!-- <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo"> -->
+        <div class="header-content"> <!-- Wrapper for layout purposes -->
+            <img src="images/U-M_Logo-Hex.png" alt="UMSI Logo" id="um-logo">
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="page_1.html">Academic Support at UMSI</a></li>
+                    <li><a href="page_2.html">Food Pantry</a></li>
+                    <li><a href="page_3.html">First-Generation Student Program</a></li>
+                </ul>
+            </nav>
+
+    </header>
+    <div class="error-container">
+        <div class="error-image">
+            <img src="images/404.png" alt="Page Not Found" />
+        </div>
+        <div class="error-content">
+            <h1 class="Oops">Oops!</h1>
+            <p>The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.</p>
+            <a href="index.html">Go to Homepage</a>
+        </div>
+    </div>
+    <footer>
+        <p>University of Michigan | School of Information | Ann Arbor, MI © <span id="currentYear"></span>. All rights reserved.</p>
+    </footer>
+    <script>
+        document.getElementById("currentYear").innerHTML = new Date().getFullYear();
+    </script>
+</body>
+</html>
